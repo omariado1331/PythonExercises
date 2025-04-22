@@ -2,6 +2,7 @@ import AnagramaTest
 import Fibonacci
 import EsNumeroPrimo
 import AreaPoligono
+import AspectRatio
 
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
@@ -13,4 +14,7 @@ import AreaPoligono
 #EsNumeroPrimo.imprimirPrimos()
 
 #ejercicio 5
-AreaPoligono.imprimirPoligonos()
+#AreaPoligono.imprimirPoligonos()
+
+#ejercicio 6
+AspectRatio.imprimirAspectRatio("https://ethic.es/wp-content/uploads/2023/03/imagen.jpg")
