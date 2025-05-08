@@ -6,7 +6,7 @@ import AspectRatio
 import InvertirCadena
 import ContarPalabras
 import DecimalaBinario
-
+import CodigoMorse
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
 
@@ -29,4 +29,7 @@ import DecimalaBinario
 #ContarPalabras.contar_palabras()
 
 #ejercicio 9
-DecimalaBinario.convertir_binary(10)
+#DecimalaBinario.convertir_binary(10)
+
+#ejercicio 10 ".... --- .-.. .-  -- ..- -. -.. ---" = "hola mundo"
+CodigoMorse.transformar_texto(".... --- .-.. .-  -- ..- -. -.. ---")
