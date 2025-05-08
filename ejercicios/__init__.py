@@ -5,6 +5,7 @@ import AreaPoligono
 import AspectRatio
 import InvertirCadena
 import ContarPalabras
+import DecimalaBinario
 
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
@@ -25,4 +26,7 @@ import ContarPalabras
 #InvertirCadena.invertirCadena("Hola Mundo")
 
 #ejercicio 8
-ContarPalabras.contar_palabras()
+#ContarPalabras.contar_palabras()
+
+#ejercicio 9
+DecimalaBinario.convertir_binary(10)
