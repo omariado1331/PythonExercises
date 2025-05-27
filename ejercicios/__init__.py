@@ -7,6 +7,7 @@ import InvertirCadena
 import ContarPalabras
 import DecimalaBinario
 import CodigoMorse
+import ExpresionEquilibrada
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
 
@@ -32,4 +33,7 @@ import CodigoMorse
 #DecimalaBinario.convertir_binary(10)
 
 #ejercicio 10 ".... --- .-.. .-  -- ..- -. -.. ---" = "hola mundo"
-CodigoMorse.transformar_texto(".... --- .-.. .-  -- ..- -. -.. ---")
+#CodigoMorse.transformar_texto(".... --- .-.. .-  -- ..- -. -.. ---")
+
+#ejercicio 11
+ExpresionEquilibrada.expresion_equilibrada("2+5+5+5+5+5+5)")
