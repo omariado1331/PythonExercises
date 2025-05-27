@@ -9,6 +9,7 @@ import DecimalaBinario
 import CodigoMorse
 import ExpresionEquilibrada
 import EliminandoCaracteres
+import Palindromo
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
 
@@ -40,4 +41,7 @@ import EliminandoCaracteres
 #ExpresionEquilibrada.expresion_equilibrada("2+5+5+5+5+5+5)")
 
 #ejercicio 12
-EliminandoCaracteres.eliminar_caracteres("sdasdgt", "xdfff")
+#EliminandoCaracteres.eliminar_caracteres("sdasdgt", "xdfff")
+
+#ejercicio 13
+Palindromo.es_palindromo("Ádivina ya te opina, ya ni miles origina, ya ni cetro me domina, ya ni monarcas, a repaso ni mulato carreta, acaso nicotina, ya ni cita vecino, anima cocina, pedazo gallina, cedazo terso nos retoza de canilla goza, de pánico camina, ónice vaticina, ya ni tocino saca, a tÉrracota luminosa pera, sacra nómina y ánimo de mortecina, ya ni giros elimina, ya ni poeta, ya ni vida")
