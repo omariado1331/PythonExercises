@@ -8,6 +8,7 @@ import ContarPalabras
 import DecimalaBinario
 import CodigoMorse
 import ExpresionEquilibrada
+import EliminandoCaracteres
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
 
@@ -36,4 +37,7 @@ import ExpresionEquilibrada
 #CodigoMorse.transformar_texto(".... --- .-.. .-  -- ..- -. -.. ---")
 
 #ejercicio 11
-ExpresionEquilibrada.expresion_equilibrada("2+5+5+5+5+5+5)")
+#ExpresionEquilibrada.expresion_equilibrada("2+5+5+5+5+5+5)")
+
+#ejercicio 12
+EliminandoCaracteres.eliminar_caracteres("sdasdgt", "xdfff")
