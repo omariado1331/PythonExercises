@@ -13,6 +13,7 @@ import Palindromo
 import factorialRecursivo
 import numeroAmstrong
 import cuantosDias
+import enMayuscula
 
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
@@ -57,4 +58,7 @@ import cuantosDias
 #numeroAmstrong.es_amstrong(1634)
 
 #ejercicio 16
-cuantosDias.cantidadDias('31/12/2022', '21/12/2022')
+#cuantosDias.cantidadDias('31/12/2022', '21/12/2022')
+
+#ejercicio 17
+enMayuscula.enMayusculas('aqui estamos todos ángeles y Otros')
