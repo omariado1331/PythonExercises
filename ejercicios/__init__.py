@@ -11,6 +11,7 @@ import ExpresionEquilibrada
 import EliminandoCaracteres
 import Palindromo
 import factorialRecursivo
+import numeroAmstrong
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
 
@@ -48,4 +49,7 @@ import factorialRecursivo
 #Palindromo.es_palindromo("Ádivina ya te opina, ya ni miles origina, ya ni cetro me domina, ya ni monarcas, a repaso ni mulato carreta, acaso nicotina, ya ni cita vecino, anima cocina, pedazo gallina, cedazo terso nos retoza de canilla goza, de pánico camina, ónice vaticina, ya ni tocino saca, a tÉrracota luminosa pera, sacra nómina y ánimo de mortecina, ya ni giros elimina, ya ni poeta, ya ni vida")
 
 #ejercicio 14
-factorialRecursivo.imprimirFactorial(6)
+#factorialRecursivo.imprimirFactorial(6)
+
+#ejercicio 15
+numeroAmstrong.es_amstrong(1634)
