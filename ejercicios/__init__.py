@@ -12,6 +12,8 @@ import EliminandoCaracteres
 import Palindromo
 import factorialRecursivo
 import numeroAmstrong
+import cuantosDias
+
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
 
@@ -52,4 +54,7 @@ import numeroAmstrong
 #factorialRecursivo.imprimirFactorial(6)
 
 #ejercicio 15
-numeroAmstrong.es_amstrong(1634)
+#numeroAmstrong.es_amstrong(1634)
+
+#ejercicio 16
+cuantosDias.cantidadDias('31/12/2022', '21/12/2022')
