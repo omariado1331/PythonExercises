@@ -14,6 +14,7 @@ import factorialRecursivo
 import numeroAmstrong
 import cuantosDias
 import enMayuscula
+import CarreraObstaculos
 
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
@@ -61,4 +62,7 @@ import enMayuscula
 #cuantosDias.cantidadDias('31/12/2022', '21/12/2022')
 
 #ejercicio 17
-enMayuscula.enMayusculas('aqui estamos todos ángeles y Otros')
+#enMayuscula.enMayusculas('aqui estamos todos ángeles y Otros')
+
+#ejercicio 18
+CarreraObstaculos.obstaculos(['run', 'run', 'jump', 'jump', 'run'],'||_|_')
