@@ -15,6 +15,7 @@ import numeroAmstrong
 import cuantosDias
 import enMayuscula
 import CarreraObstaculos
+import TresEnRaya
 
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
@@ -65,4 +66,10 @@ import CarreraObstaculos
 #enMayuscula.enMayusculas('aqui estamos todos ángeles y Otros')
 
 #ejercicio 18
-CarreraObstaculos.obstaculos(['run', 'run', 'jump', 'jump', 'run'],'||_|_')
+#CarreraObstaculos.obstaculos(['run', 'run', 'jump', 'jump', 'run'],'||_|_')
+
+#ejercicio 19
+TresEnRaya.conocer_ganador(
+    [["X", "O", "X"],
+     ["O", "X", "O"],
+     ["O", "X", "O"]])
