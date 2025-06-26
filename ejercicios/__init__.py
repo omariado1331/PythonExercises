@@ -16,6 +16,7 @@ import cuantosDias
 import enMayuscula
 import CarreraObstaculos
 import TresEnRaya
+import ConversorTiempo
 
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
@@ -69,7 +70,10 @@ import TresEnRaya
 #CarreraObstaculos.obstaculos(['run', 'run', 'jump', 'jump', 'run'],'||_|_')
 
 #ejercicio 19
-TresEnRaya.conocer_ganador(
-    [["X", "O", "X"],
-     ["O", "X", "O"],
-     ["O", "X", "O"]])
+#TresEnRaya.conocer_ganador(
+#    [["X", "O", "X"],
+#     ["O", "X", "O"],
+#     ["O", "X", "O"]])
+
+#ejercicio 20
+ConversorTiempo.convertir(2,1,1,1)
