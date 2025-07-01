@@ -18,6 +18,7 @@ import CarreraObstaculos
 import TresEnRaya
 import ConversorTiempo
 import ParandoTiempo
+import CalculadoraTxt
 import asyncio
 
 #ejercicio 2
@@ -81,4 +82,7 @@ import asyncio
 #ConversorTiempo.convertir(2,1,1,1)
 
 #ejercicio 21
-ParandoTiempo.iniciar()
+#ParandoTiempo.iniciar()
+
+#ejercicio 22
+CalculadoraTxt.calcular_archivo()
