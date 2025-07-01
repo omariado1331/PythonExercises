@@ -19,6 +19,7 @@ import TresEnRaya
 import ConversorTiempo
 import ParandoTiempo
 import CalculadoraTxt
+import Conjuntos
 import asyncio
 
 #ejercicio 2
@@ -85,4 +86,7 @@ import asyncio
 #ParandoTiempo.iniciar()
 
 #ejercicio 22
-CalculadoraTxt.calcular_archivo()
+#CalculadoraTxt.calcular_archivo()
+
+#ejercicio 23
+Conjuntos.conjuntos([1,2,3,4,5,6], [1,2,9,3,11,12], False)
