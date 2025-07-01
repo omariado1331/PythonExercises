@@ -17,6 +17,8 @@ import enMayuscula
 import CarreraObstaculos
 import TresEnRaya
 import ConversorTiempo
+import ParandoTiempo
+import asyncio
 
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
@@ -76,4 +78,7 @@ import ConversorTiempo
 #     ["O", "X", "O"]])
 
 #ejercicio 20
-ConversorTiempo.convertir(2,1,1,1)
+#ConversorTiempo.convertir(2,1,1,1)
+
+#ejercicio 21
+ParandoTiempo.iniciar()
