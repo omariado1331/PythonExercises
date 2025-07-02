@@ -21,6 +21,7 @@ import ParandoTiempo
 import CalculadoraTxt
 import Conjuntos
 import mcmMCD
+import IteradorMaster
 
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
@@ -92,4 +93,7 @@ import mcmMCD
 #Conjuntos.conjuntos([1,2,3,4,5,6], [1,2,9,3,11,12], False)
 
 #ejericio 24
-mcmMCD.mcm_mcd(19, 19)
+#mcmMCD.mcm_mcd(19, 19)
+
+#ejercicio 25
+IteradorMaster.imprimir()
