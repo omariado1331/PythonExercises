@@ -22,6 +22,7 @@ import CalculadoraTxt
 import Conjuntos
 import mcmMCD
 import IteradorMaster
+import PiedraPapelTijeras
 
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
@@ -96,4 +97,7 @@ import IteradorMaster
 #mcmMCD.mcm_mcd(19, 19)
 
 #ejercicio 25
-IteradorMaster.imprimir()
+#IteradorMaster.imprimir()
+
+#ejercicio 26
+PiedraPapelTijeras.calcular_partidas([("R","S"), ("S","R"), ("P","P")])
