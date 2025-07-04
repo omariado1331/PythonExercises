@@ -24,6 +24,7 @@ import mcmMCD
 import IteradorMaster
 import PiedraPapelTijeras
 import Figuras2D
+import VectoresOrtogonales
 
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
@@ -104,4 +105,7 @@ import Figuras2D
 #PiedraPapelTijeras.calcular_partidas([("R","S"), ("S","R"), ("P","P")])
 
 #ejercicio 27
-Figuras2D.dibujar_forma(7, 'flecha')
+#Figuras2D.dibujar_forma(7, 'flecha')
+
+#ejercicio 28
+VectoresOrtogonales.verificar_vectores([3,3],[5,-5])
