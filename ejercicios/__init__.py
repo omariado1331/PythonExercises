@@ -23,6 +23,7 @@ import Conjuntos
 import mcmMCD
 import IteradorMaster
 import PiedraPapelTijeras
+import Figuras2D
 
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
@@ -100,4 +101,7 @@ import PiedraPapelTijeras
 #IteradorMaster.imprimir()
 
 #ejercicio 26
-PiedraPapelTijeras.calcular_partidas([("R","S"), ("S","R"), ("P","P")])
+#PiedraPapelTijeras.calcular_partidas([("R","S"), ("S","R"), ("P","P")])
+
+#ejercicio 27
+Figuras2D.dibujar_forma(7, 'flecha')
