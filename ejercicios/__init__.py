@@ -2,7 +2,7 @@ import AnagramaTest
 import Fibonacci
 import EsNumeroPrimo
 import AreaPoligono
-import AspectRatio
+#import AspectRatio
 import InvertirCadena
 import ContarPalabras
 import DecimalaBinario
@@ -25,6 +25,7 @@ import IteradorMaster
 import PiedraPapelTijeras
 import Figuras2D
 import VectoresOrtogonales
+import ejercicio29
 
 #ejercicio 2
 #print(AnagramaTest.isAnagram("amor", "roma"))
@@ -108,4 +109,7 @@ import VectoresOrtogonales
 #Figuras2D.dibujar_forma(7, 'flecha')
 
 #ejercicio 28
-VectoresOrtogonales.verificar_vectores([3,3],[5,-5])
+#VectoresOrtogonales.verificar_vectores([3,3],[5,-5])
+
+#ejercicio 29
+ejercicio29.comprar([200,200,200],8)
